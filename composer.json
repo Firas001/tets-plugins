@@ -1,8 +1,22 @@
 {
-    "name": "firas/wordpress-plugins",
-    "description": "Monorepo for WordPress plugins",
-    "type": "project",
+    "name": "firas/plugin-two",
+    "description": "Description of Plugin Two",
+    "type": "wordpress-plugin",
     "require": {
-        "composer/installers": "^2.0"
+        "composer/installers": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Firas\\PluginTwo\\": [
+                "includes/",
+                "admin/",
+                "functions/",
+                "languages/",
+                "public/"
+            ]
+        }
+    },
+    "extra": {
+        "installer-name": "plugin-two"
     }
 }
