@@ -1,8 +1,0 @@
-{
-    "name": "firas/wordpress-plugins",
-    "description": "Monorepo for WordPress plugins",
-    "type": "project",
-    "require": {
-        "composer/installers": "^2.0"
-    }
-}
