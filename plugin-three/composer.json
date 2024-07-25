@@ -1,0 +1,22 @@
+{
+    "name": "firas/plugin-three",
+    "description": "Description of Plugin Three",
+    "type": "wordpress-plugin",
+    "require": {
+        "composer/installers": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Firas\\PluginThree\\": [
+                "includes/",
+                "admin/",
+                "functions/",
+                "languages/",
+                "public/"
+            ]
+        }
+    },
+    "extra": {
+        "installer-name": "plugin-three"
+    }
+}
