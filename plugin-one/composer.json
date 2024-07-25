@@ -2,6 +2,7 @@
     "name": "firas/plugin-one",
     "description": "Description of Plugin One",
     "type": "wordpress-plugin",
+    "version": "2.0.0",
     "require": {
         "composer/installers": "^2.0"
     },
