@@ -9,8 +9,8 @@
         "symfony/var-dumper": "^5.0"
     },
     "replace": {
-        "firas/plugin-one": "self.version",
-        "firas/plugin-two": "self.version",
-        "firas/plugin-three": "self.version"
+        "firas/plugin-one": "*",
+        "firas/plugin-two": "*",
+        "firas/plugin-three": "*"
     }
 }
