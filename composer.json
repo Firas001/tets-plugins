@@ -3,14 +3,6 @@
     "description": "Monorepo for WordPress plugins",
     "type": "project",
     "require": {
-        "composer/installers": "^1.0"
-    },
-    "require-dev": {
-        "symfony/var-dumper": "^5.0"
-    },
-    "replace": {
-        "firas/plugin-one": "*",
-        "firas/plugin-two": "*",
-        "firas/plugin-three": "*"
+        "composer/installers": "^2.0"
     }
 }
